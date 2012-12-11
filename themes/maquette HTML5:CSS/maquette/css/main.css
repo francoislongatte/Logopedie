@@ -92,11 +92,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html{
+    background-image: url("../img/pattern.png");
+}
 
+body{
+    font: 16px/1.5 "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    margin: 0 auto;
+    max-width: 960px;
+}
 
-
-
-
+h1 a{
+    display: inline-block;
+    background-image: url("../img/logo.png");
+    width: 280px;
+    height: 88px;
+    text-indent: -9999px;
+}
 
 
 
@@ -222,7 +234,10 @@ textarea {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) {
-    /* Style adjustments for high resolution devices */
+    h1 a{
+        background-image: url("../img/logoRetina.png");
+        background-size: 280px 88px;
+    }
 }
 
 /* ==========================================================================
