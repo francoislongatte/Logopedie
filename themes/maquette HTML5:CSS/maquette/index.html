@@ -24,158 +24,186 @@
         <!-- Add your site or application content here -->
         <header>
             <h1><a href="#">Unité voix</a></h1>
-            <form action="#">
+            <form id="search" action="#">
                 <fieldset>
-                    <input type="search" name="search" id="search" placeholder="rechercher">
+                    <input type="search" name="search" placeholder="rechercher">
+                    <button type="submit" class="icon-search"><span>chercher</span></button>
                 </fieldset>
             </form>
             <div id="langues">
                 <a href="#" hreflang="fr">fr</a>
                 <a href="#" hreflang="en">en</a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">accueil</a></li>
-                    <li><a href="#">recherche</a></li>
-                    <li><a href="#">clinique</a></li>
-                    <li><a href="#">stage</a></li>
-                    <li><a href="#">portraits</a></li>
-                    <li><a href="#">étude</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </nav>
         </header>
-        <section>
-            <h2>Description du site</h2>
-            <img src="http://placehold.it/350x270" alt="#" width="350" height="270">
-            <p>
-                L’unité Logopédie de la Voix est incluse dans le Département de psychologie (Cognition et Comportement) de la Faculté de Psychologie et des Sciences de l’Education de l’Université de Liège. Elle est une des finalités de la section logopédie. En effet, la section logopédie de l’ULg comprend 4 finalités à savoir&nbsp;:
-            </p>
+        <nav>
             <ul>
-                <li><a href="#">Finalité spécialisée en neuropsychologie du langage et troubles des apprentissages verbaux</a></li>
-                <li><a href="#">Finalité spécialisée en langage oral et handicap</a></li>
-                <li>Finalité spécialisée en surdité</li>
-                <li>Finalité spécialisée en voix</li>
+                <li><a href="#" class="icon-home">accueil</a></li><!--
+                --><li><a href="#" class="icon-globe">recherche</a></li><!--
+                --><li><a href="#" class="icon-hospital">clinique</a></li><!--
+                --><li><a href="#" class="icon-industrial-building">stage</a></li><!--
+                --><li><a href="#" class="icon-users">portraits</a></li><!--
+                --><li><a href="#" class="icon-college">étude</a></li><!--
+                --><li><a href="#" class="icon-vcard">contact</a></li>
             </ul>
-            <p>
-                L’unité Logopédie de la voix a vu le jour en octobre 2008. L’unité a un triple objectif.
-            </p>
-            <p>
-                Premièrement, former de futur(e)s logopèdes aux rééducations des troubles de la voix parlée et chantée.   
-            </p>
-            <p>
-                Deuxièmement, développer un secteur de recherche spécifique au domaine de la voix dont les intérêts sont pour l’instant&nbsp;: l’évaluation vocale, la charge vocale, la justesse vocale. 
-            </p>
-            <p>
-                Troisièmement, offrir la possibilité d’une prise en charge logopédique en voix et en orthodontie au sein de la <a href="#">Clinique Psychologique et Logopédie de la Faculté</a>
-            </p>
-        </section>
-        <section>
-            <h2>Prochains évènements</h2>
-            <div class="event">
-                <div class="eventGraph">
-                    <time>24</time>
-                    <time>dec</time>
-                    <time>2012</time>
-                </div>
-                <h3>Titre évènement</h3>
-                <p> 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-            <div class="event">
-                <div class="eventGraph">
-                    <time>24</time>
-                    <time>dec</time>
-                    <time>2012</time>
-                </div>
-                <h3>Titre évènement</h3>
-                <p> 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-            <div class="event">
-                <div class="eventGraph">
-                    <time>24</time>
-                    <time>dec</time>
-                    <time>2012</time>
-                </div>
-                <h3>Titre évènement</h3>
-                <p> 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-            <div class="event">
-                <div class="eventGraph">
-                    <time>24</time>
-                    <time>dec</time>
-                    <time>2012</time>
-                </div>
-                <h3>Titre évènement</h3>
-                <p> 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-        </section>
-        <section>
-            <h2>Dernières publications</h2>
-            <h3>Titre publication</h3>
-            <a href="#">
+        </nav>
+        <div>
+            <section id="description">
+                <h2>Description du site</h2>
+                <img src="http://placehold.it/350x270" alt="#" width="350" height="270">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    L’unité Logopédie de la Voix est incluse dans le Département de psychologie (Cognition et Comportement) de la Faculté de Psychologie et des Sciences de l’Education de l’Université de Liège. Elle est une des finalités de la section logopédie. En effet, la section logopédie de l’ULg comprend 4 finalités à savoir&nbsp;:
                 </p>
-            </a>
-            <h3>Titre publication</h3>
-            <a href="#">
+                <ul>
+                    <li><a href="#">Finalité spécialisée en neuropsychologie du langage et troubles des apprentissages verbaux</a></li>
+                    <li><a href="#">Finalité spécialisée en langage oral et handicap</a></li>
+                    <li>Finalité spécialisée en surdité</li>
+                    <li>Finalité spécialisée en voix</li>
+                </ul>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    L’unité Logopédie de la voix a vu le jour en octobre 2008. L’unité a un triple objectif.
                 </p>
-            </a>
-            <h3>Titre publication</h3>
-            <a href="#">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    Premièrement, former de futur(e)s logopèdes aux rééducations des troubles de la voix parlée et chantée.   
                 </p>
-            </a>
-            <h3>Titre publication</h3>
-            <a href="#">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    Deuxièmement, développer un secteur de recherche spécifique au domaine de la voix dont les intérêts sont pour l’instant&nbsp;: l’évaluation vocale, la charge vocale, la justesse vocale. 
                 </p>
-            </a>
-            <h3>Titre publication</h3>
-            <a href="#">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    Troisièmement, offrir la possibilité d’une prise en charge logopédique en voix et en orthodontie au sein de la <a href="#">Clinique Psychologique et Logopédie de la Faculté</a>
                 </p>
-            </a>
-            <h3>Titre publication</h3>
-            <a href="#">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </a>
-            <h3>Titre publication</h3>
-            <a href="#">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </a>
-            <h3>Titre publication</h3>
-            <a href="#">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </a>
-        </section>
+            </section>
+            <section id="publications">
+                <h2>Dernières publications</h2>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+                <article> 
+                    <a href="#" title="voir la publication">
+                        <h3>Titre publication</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </a>
+                </article>
+            </section>
+            <section id="evenements">
+                <h2>Prochains évènements</h2>
+                <article class="event">
+                    <div class="eventGraph">
+                        <time>24</time>
+                        <time>dec</time>
+                        <time>2012</time>
+                    </div>
+                    <h3>Titre évènement</h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </article>
+                <article class="event">
+                    <div class="eventGraph">
+                        <time>24</time>
+                        <time>dec</time>
+                        <time>2012</time>
+                    </div>
+                    <h3>Titre évènement</h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </article>
+                <article class="event">
+                    <div class="eventGraph">
+                        <time>24</time>
+                        <time>dec</time>
+                        <time>2012</time>
+                    </div>
+                    <h3>Titre évènement</h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </article>
+                <article class="event">
+                    <div class="eventGraph">
+                        <time>24</time>
+                        <time>dec</time>
+                        <time>2012</time>
+                    </div>
+                    <h3>Titre évènement</h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </article>
+            </section>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
