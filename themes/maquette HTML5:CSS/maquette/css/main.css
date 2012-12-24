@@ -97,6 +97,10 @@ body > div {
 body > div {
   overflow: hidden;
 }
+body > footer {
+  background-color: #f23008;
+  margin-top: 2em;
+}
 h1 a {
   display: inline-block;
   background-image: url("../img/logo.png");
@@ -108,65 +112,41 @@ h1 a {
   width: 13.75em;
   display: inline-block;
   position: absolute;
-  top: 4.45em;
+  top: 4.6em;
   right: 8.15em;
 }
 #search fieldset {
   position: relative;
 }
 #search input {
-  border: 2px solid #f23008;
+  background-color: #f23008;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  border: none;
   padding: 0.5em;
-  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
-  width: 12.5em;
+  width: 12.75em;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+#search input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+#search input:-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 #search input:focus {
   outline: none;
 }
 .icon-search {
-  color: #a81f03;
-  padding: 0.2em;
-  -webkit-border-top-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  -moz-border-radius-bottomright: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  color: #ffffff;
+  background: none;
   border: none;
-  background: #f23008;
-  /* Old browsers */
-
-  background: -moz-linear-gradient(top, #f23008 0%, #db0808 100%);
-  /* FF3.6+ */
-
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f23008), color-stop(100%, #db0808));
-  /* Chrome,Safari4+ */
-
-  background: -webkit-linear-gradient(top, #f23008 0%, #db0808 100%);
-  /* Chrome10+,Safari5.1+ */
-
-  background: -o-linear-gradient(top, #f23008 0%, #db0808 100%);
-  /* Opera 11.10+ */
-
-  background: -ms-linear-gradient(top, #f23008 0%, #db0808 100%);
-  /* IE10+ */
-
-  background: linear-gradient(to bottom, #f23008 0%, #db0808 100%);
-  /* W3C */
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f23008', endColorstr='#db0808', GradientType=0);
-  /* IE6-9 */
-
   position: absolute;
-  top: 0;
-  right: 0;
+  right: -0.15em;
+  top: 0.15em;
   font-size: 1.5em;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
-  filter: dropshadow(color=rgba(255, 255, 255, 0.3), offx=0, offy=1);
 }
 .icon-search span {
   display: inline-block;
@@ -177,7 +157,7 @@ h1 a {
   display: inline-block;
   position: absolute;
   right: 0.625em;
-  top: 4.8em;
+  top: 4.9em;
 }
 #langues a {
   color: #f23008;
@@ -360,6 +340,43 @@ h3 {
   margin-top: 0;
   padding-left: 1em;
   padding-right: 1em;
+}
+#copyright {
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #ffffff;
+  clear: both;
+}
+footer > div {
+  max-width: 940px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  overflow: hidden;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  filter: dropshadow(color=rgba(0, 0, 0, 0.3), offx=0, offy=1);
+}
+footer section {
+  width: 29.78723404%;
+  float: left;
+  color: #ffffff;
+  margin-right: 1.25em;
+}
+footer h2 {
+  margin-bottom: 0;
+  font-size: 1.25em;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+footer li {
+  list-style: none;
+}
+footer a {
+  color: #ffffff;
+  font-size: 0.7em;
 }
 /* ==========================================================================
    Helper classes
