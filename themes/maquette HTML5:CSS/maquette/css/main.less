@@ -307,23 +307,18 @@ h3{
 }
 
 #publications h3{
-    transition: color 0.3s;
-    -moz-transition: color 0.3s; /* Firefox 4 */
-    -webkit-transition: color 0.3s; /* Safari and Chrome */
-    -o-transition: color 0.3s; /* Opera */
+    transition: transform 0.5s;
+    -moz-transition: -moz-transform 0.5s; /* Firefox 4 */
+    -webkit-transition: -webkit-transform 0.5s; /* Safari and Chrome */
+    -o-transition:width -o-transform 0.5s; /* Opera */
 }
 
 #publications a:hover h3{
-    color: @blancCouleur;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background-color: @logoCouleur;
-    text-align: center;
-    text-shadow: 0px 1px 0px rgba(0,0,0, .3);
-    filter: dropshadow(color=rgba(0,0,0, .3), offx=0, offy=1);
+    transform: translate(10px, 0px);
+    -moz-transform: translate(10px, 0px); /* Firefox 4 */
+    -webkit-transform: translate(10px, 0px); /* Safari and Chrome */
+    -o-transform: translate(10px, 0px); /* Opera */
 }
-
 
 /* ==========================================================================
    Helper classes
