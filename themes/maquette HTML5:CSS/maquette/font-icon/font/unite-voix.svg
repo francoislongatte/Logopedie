@@ -2,21 +2,21 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20100429 at Wed Dec 12 07:53:46 2012
+Created by FontForge 20100429 at Mon Dec 24 12:49:45 2012
  By root
 Copyright (C) 2012 by original authors @ fontello.com
 </metadata>
 <defs>
-<font id="unit-oix" horiz-adv-x="364" >
+<font id="unite-voix" horiz-adv-x="364" >
   <font-face 
-    font-family="unit-oix"
+    font-family="unite-voix"
     font-weight="500"
     font-stretch="normal"
     units-per-em="1000"
     panose-1="2 0 6 3 0 0 0 0 0 0"
     ascent="850"
     descent="-150"
-    bbox="15 -75 1163 775"
+    bbox="15 -100 1163 800"
     underline-thickness="50"
     underline-position="-100"
     unicode-range="U+2302-1F50D"
@@ -61,6 +61,8 @@ q-1 -6 -8 -13v1l-2 -1l-1 -1l-1 -6l1 -1v-1l-3 2l-1 -6q-9 -2 -8 -8q0 -4 -3 -6l1 -2
 d="M98 304q63 35 141 46v50q-76 76 -76 185q0 190 150 190q75 0 95 -21q24 -19 35 -88q-95 -65 -95 -242q0 -153 65 -224q-25 0 -70 -30l-35 -20l-10 -10q-20 -14 -26 -20l-24 -24q-32 0 -135 28q-95 30 -95 86q0 44 80 94zM353 115q84 45 155 50v55q-80 75 -80 200
 q0 205 160 205t160 -205q0 -124 -80 -200v-55q71 -5 155 -50q85 -46 85 -95q0 -41 -69 -60q-130 -35 -251 -35q-118 0 -250 35q-75 20 -75 60t90 95zM733 666q11 69 35 88q20 21 95 21q150 0 150 -190q0 -110 -75 -185v-50q45 -6 94.5 -24.5t90 -50.5t40.5 -65
 q0 -50 -100 -86q-103 -28 -135 -28l-24 24q-6 6 -26 20l-10 10q-28 15 -35 20q-45 30 -70 30q65 71 65 224q0 177 -95 242z" />
+    <glyph glyph-name="u1F4C5" unicode="&#x1f4c5;" horiz-adv-x="930" 
+d="M815 700q42 0 71 -29t29 -71v-600q0 -41 -29.5 -70.5t-70.5 -29.5h-700q-40 0 -70 30t-30 70v600q0 41 29.5 70.5t70.5 29.5h46v-100h160v100h290v-100h160v100h44zM815 400h-700v-400h700v400zM275 630h-70v170h70v-170zM725 800v-170h-70v170h70z" />
     <glyph glyph-name="u1F50D" unicode="&#x1f50d;" horiz-adv-x="819" 
 d="M787 78q30 -34 6 -62l-46 -46q-36 -32 -68 0l-190 190q-73 -42 -156 -42q-128 0 -223 95t-95 223t90 219t218 91q127 0 224 -95q96 -95 96 -223q0 -89 -46 -162zM109 436q0 -88 68 -156t156 -68t151 63t63 153q0 87 -68 155q-67 67 -156 67q-88 0 -151 -63t-63 -151z" />
   </font>

@@ -1,5 +1,5 @@
 {
-  "name": "unitéVoix",
+  "name": "unite-voix",
   "glyphs": [
     {
       "search": [
@@ -89,6 +89,19 @@
       "orig_css": "users",
       "orig_code": 128101,
       "src": "typicons"
+    },
+    {
+      "search": [
+        "calendar",
+        "date"
+      ],
+      "code": 128197,
+      "uid": "413717f5ea649e8d8b93938be277264a",
+      "css": "calendar",
+      "orig_css": "calendar",
+      "orig_code": 128197,
+      "src": "entypo",
+      "from": 128197
     },
     {
       "search": [

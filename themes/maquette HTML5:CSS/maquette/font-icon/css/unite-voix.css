@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'unit-oix';
-  src: url("../font/unit-oix.eot");
-  src: url("../font/unit-oix.eot?#iefix") format('embedded-opentype'), url("../font/unit-oix.woff") format('woff'), url("../font/unit-oix.ttf") format('truetype'), url("../font/unit-oix.svg#unit-oix") format('svg');
+  font-family: 'unite-voix';
+  src: url("../font/unite-voix.eot");
+  src: url("../font/unite-voix.eot?#iefix") format('embedded-opentype'), url("../font/unite-voix.woff") format('woff'), url("../font/unite-voix.ttf") format('truetype'), url("../font/unite-voix.svg#unite-voix") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: 'unit-oix';
+  font-family: 'unite-voix';
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -37,4 +37,5 @@
 .icon-industrial-building:before { content: '\e822'; } /* '' */
 .icon-globe:before { content: '🌎'; } /* '\1f30e' */
 .icon-users:before { content: '👥'; } /* '\1f465' */
+.icon-calendar:before { content: '📅'; } /* '\1f4c5' */
 .icon-search:before { content: '🔍'; } /* '\1f50d' */
