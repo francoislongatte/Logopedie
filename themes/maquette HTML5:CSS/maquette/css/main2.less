@@ -1,5 +1,5 @@
 @import url("../font-icon/css/unite-voix.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700,900");
 /*
  * HTML5 Boilerplate
  *
@@ -109,7 +109,7 @@ body{
     color: @noirCouleur;
 }
 
-header, body>div{
+header, body>div, #aTraversLeMonde{
     margin: 0 auto;
     max-width: 940px;
     padding-left: 0.625em;
@@ -406,6 +406,145 @@ footer a{
     color: @blancCouleur;
     font-size: 0.7em;
 }
+
+/*
+ * portraits page
+ */
+
+ #portrait figure{
+    float: left;
+    margin-left: 1em;
+ }
+
+ #portrait p{
+    margin: 0 1em 1.5em 12.25em;
+ }
+
+ #portrait p:last-child{
+    margin-bottom: 0;
+ }
+
+ #portrait article{
+    overflow: hidden;
+    margin-bottom: 2em;
+    background-color: #eee;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 1em;
+ }
+
+ #portrait h3{
+    margin-top: 0;
+    margin-bottom: 1em;
+    background-color: @logoCouleur;
+    color: @blancCouleur;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    text-shadow: 0px 1px 1px @noirCouleur;
+    filter: dropshadow(color=@noirCouleur, offx=0, offy=1);
+ }
+
+ #portrait h4{
+    margin-left: 12.25em;
+    margin-bottom: 0;
+ }
+
+ #portrait figcaption{
+    line-height: 1em;
+    margin-top: 0.5em;
+    text-align: right;
+ }
+
+ #portrait strong{
+    display: block;
+ }
+
+ #portrait{
+    margin-top: 3em;
+ }
+
+ #portraits{
+    overflow: hidden;
+ }
+
+ #portraits article{
+    width: 100%;
+    background-color: #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 2em;
+    position: relative;
+    height: 10em;
+    border: 1px solid #DDDDDD;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+    -moz-transition: -moz-transform 0.5s; /* Firefox 4 */
+    -webkit-transition: -webkit-transform 0.5s; /* Safari and Chrome */
+    -o-transition:width -o-transform 0.5s; /* Opera */
+ }
+
+ #portraits article:hover{
+    transform: translate(5px, -5px);
+    -moz-transform: translate(5px, -5px); /* Firefox 4 */
+    -webkit-transform: translate(5px, -5px); /* Safari and Chrome */
+    -o-transform: translate(5px, -5px); /* Opera */
+ }
+
+ #portraits a:hover{
+    color: @logoCouleur;
+ }
+
+ #portraits a:nth-child(2n+1){
+    margin-left: 1.25em;
+ }
+
+ #portraits figcaption{
+    font-size: 1.5em;
+    left: 7.3em;
+    line-height: 1em;
+    position: absolute;
+    top: 4em;
+    font-weight: 100;
+ }
+
+ #portraits figure{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10em;
+ }
+
+ #portraits strong{
+    display: block;
+    width: 10em;
+ }
+
+ #portraits h3{
+    font-size: 1em;
+    padding-left: 11em;
+    padding-right: 1em;
+    color: #555555;
+    font-weight: 200;
+}
+
+#portraits a{
+    float: left;
+    text-decoration: none;
+    color: @noirCouleur;
+    display: block;
+    width: 48.936170213%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -513,8 +652,15 @@ footer a{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 959px){
+@media only screen and (max-width: 975px){
     /*Ecran en deca de 959px*/
+    #portraits a{
+        width: 47.936170213%;
+    }
+
+    #portraits{
+        padding-left: 0.5em;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px){
@@ -608,8 +754,17 @@ footer a{
     }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 790px){
     /*Tablette mode portrait*/
+    #portraits a{
+        float: none;
+        margin: 0;
+        width: 99%;
+    }
+
+    #portraits a:nth-child(2n+1){
+        margin-left: 0;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
@@ -832,6 +987,59 @@ footer a{
 
     #langues a{
         text-decoration: underline;
+    }
+
+    #portraits a{
+        float: none;
+        margin: 0;
+        width: 99%;
+    }
+
+    #portraits article{
+        height: inherit;
+        text-align: center;
+    }
+
+    #portraits h3{
+        margin-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 1em;
+    }
+
+    #portraits figure{
+        height: inherit;
+        position: inherit;
+    }
+
+    #portraits figcaption{
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1em;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        position: static;
+    }
+
+    #portraits strong{
+        width: inherit;
+    }
+
+    #portraits{
+        padding-left: 0.2em;
+    }
+
+    #portrait figure{
+        float: none;
+    }
+
+    #portrait figcaption{
+        text-align: left;
+        margin-bottom: 1em;
+    }
+
+    #portrait p{
+        margin: 0 1em 1.5em;
     }
 }
 
