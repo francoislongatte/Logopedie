@@ -1,4 +1,4 @@
-@import url("../font-icon/css/unite-voix.css");
+@import url("../font-icon/css/unit-oix.css");
 
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700,900");
 /*
@@ -516,6 +516,110 @@ footer a {
   display: block;
   width: 48.936170213%;
 }
+.countryMarker > span {
+  font-size: 2em;
+}
+.countryMarker article {
+  display: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  overflow: hidden;
+  background: #ffffff;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #eaeaea));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eaeaea', GradientType=0);
+  /* IE6-9 */
+
+}
+.countryMarker img {
+  float: left;
+  margin-right: 1em;
+}
+.countryMarker p {
+  float: left;
+  margin: 0;
+  margin-bottom: 1em;
+  width: 75%;
+}
+.countryMarker:hover article {
+  display: block;
+}
+.countryMarker {
+  position: absolute;
+}
+.countryMarker h2 {
+  margin: 0;
+}
+#unitedStates .countryMarker {
+  left: 24em;
+  top: 8.5em;
+}
+#canada .countryMarker {
+  left: 19em;
+  top: 21.5em;
+}
+#france .countryMarker {
+  left: 21.5em;
+  top: 27.5em;
+}
+#england .countryMarker {
+  left: 20.5em;
+  top: 37.5em;
+}
+#belgium .countryMarker {
+  left: 12.5em;
+  top: 5.5em;
+}
+#nederland .countryMarker {
+  left: 19.5em;
+  top: 27.5em;
+}
+#england .countryMarker article {
+  top: -14em;
+  position: relative;
+}
+#nederland .countryMarker article {
+  top: -20em;
+  position: relative;
+}
+#canada .countryMarker article {
+  top: -14em;
+  position: relative;
+}
+#france .countryMarker article {
+  top: -34em;
+  position: relative;
+  margin-bottom: 2em;
+}
+#aTraversLeMonde section {
+  position: relative;
+}
+#aTraversLeMonde {
+  overflow: visible;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -707,6 +811,22 @@ footer a {
   }
   #portraits a:nth-child(2n+1) {
     margin-left: 0;
+  }
+  .countryMarker article {
+    display: block;
+  }
+  #aTraversLeMonde section > img {
+    display: none;
+  }
+  #aTraversLeMonde section article {
+    position: static !important;
+  }
+  .countryMarker {
+    position: static;
+  }
+  #aTraversLeMonde h1 {
+    margin: 0;
+    margin-top: 2em;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {

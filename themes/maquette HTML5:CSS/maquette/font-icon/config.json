@@ -1,5 +1,5 @@
 {
-  "name": "unite-voix",
+  "name": "unitéVoix",
   "glyphs": [
     {
       "search": [
@@ -26,6 +26,21 @@
       "orig_code": 59170,
       "src": "entypo",
       "from": 59170
+    },
+    {
+      "search": [
+        "location",
+        "mark",
+        "marker"
+      ],
+      "code": 59172,
+      "uid": "08a23ea96a596b1b5f12f6abbbc8f5f9",
+      "file": "map_pin_fill",
+      "css": "location",
+      "orig_css": "location",
+      "orig_code": 59172,
+      "src": "iconic",
+      "from": 59172
     },
     {
       "search": [
@@ -89,19 +104,6 @@
       "orig_css": "users",
       "orig_code": 128101,
       "src": "typicons"
-    },
-    {
-      "search": [
-        "calendar",
-        "date"
-      ],
-      "code": 128197,
-      "uid": "413717f5ea649e8d8b93938be277264a",
-      "css": "calendar",
-      "orig_css": "calendar",
-      "orig_code": 128197,
-      "src": "entypo",
-      "from": 128197
     },
     {
       "search": [
